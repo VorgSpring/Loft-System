@@ -1,0 +1,36 @@
+{
+  "name": "loft-system",
+  "version": "1.0.0",
+  "description": "chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VorgSpring/Loft-System.git"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "express",
+    "mongo"
+  ],
+  "author": "Pavlov",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.2.10",
+    "socket.io": "^2.1.1",
+    "typescript": "^3.0.1",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
