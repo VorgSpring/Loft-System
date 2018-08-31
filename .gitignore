@@ -30,8 +30,8 @@ Thumbs.db
 .hg
 .idea
 .svn
-.vscode
 bower_components
+dist
 
 # Node.JS
 node_modules
